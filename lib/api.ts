@@ -122,7 +122,8 @@ export async function signInWithGoogle(supabase: SupabaseClient) {
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${baseUrl}/auth/callback`,
+        redirectTo: `https://regal-fenglisu-19f212.netlify.app/auth/callback`,
+        // redirectTo: `${baseUrl}/auth/callback`,
         queryParams: {
           access_type: "offline",
           prompt: "consent",
