@@ -43,6 +43,7 @@ export default function LoginPage() {
   return (
     <div className="bg-background flex h-dvh w-full flex-col">
       <HeaderGoBack href="/" />
+      <h1>Test</h1>
 
       <main className="flex flex-1 flex-col items-center justify-center px-4 sm:px-6">
         <div className="w-full max-w-md space-y-8">
