@@ -69,5 +69,5 @@ export async function GET(request: Request) {
 
   const redirectUrl = `${protocol}://${host}${next}`
 
-  return NextResponse.redirect(redirectUrl)
+  return NextResponse.redirect("https://regal-fenglisu-19f212.netlify.app/")
 }
