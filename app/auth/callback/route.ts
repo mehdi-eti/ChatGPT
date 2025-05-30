@@ -67,7 +67,7 @@ export async function GET(request: Request) {
   const host = request.headers.get("host")
   const protocol = host?.includes("localhost") ? "http" : "https"
 
-  const redirectUrl = `${protocol}://${host}${next}`
+  const redirectUrl = `https://regal-fenglisu-19f212.netlify.app${next}`
 
   return NextResponse.redirect(redirectUrl)
 }
