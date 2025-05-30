@@ -20,7 +20,7 @@ export const FREE_MODELS_IDS = ["deepseek-r1"]
 export const MODEL_DEFAULT = "deepseek-r1"
 
 export const APP_NAME = "ChatGPT"
-export const APP_DOMAIN = "https://chatgpt.chat"
+export const APP_DOMAIN = "https://regal-fenglisu-19f212.netlify.app"
 export const APP_DESCRIPTION =
   "ChatGPT is a free, open-source AI chat app with multi-model support."
 
