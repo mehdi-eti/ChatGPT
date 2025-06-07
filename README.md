@@ -1,10 +1,8 @@
 # ChatGPT
 
-[ChatGPT.chat](https://ChatGPT.chat)
+[ChatGPT.chat](https://regal-fenglisu-19f212.netlify.app)
 
-**ChatGPT** is the open-source interface for AI chat.
-
-[![Chat with this repo](https://ChatGPT.chat/button/github.svg)](https://ChatGPT.chat/?agent=github/ibelick/ChatGPT)
+[![Chat with this repo](https://regal-fenglisu-19f212.netlify.app/button/github.svg)](https://regal-fenglisu-19f212.netlify.app/?agent=github/ibelick/ChatGPT)
 
 ![ChatGPT screenshot](./public/cover_ChatGPT.webp)
 
@@ -35,10 +33,6 @@ echo "OPENAI_API_KEY=your-key" > .env.local
 npm run dev
 ```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ibelick/ChatGPT)
-
-To unlock features like auth, file uploads, and agents, see [INSTALL.md](./INSTALL.md).
-
 ## Built with
 
 - [prompt-kit](https://prompt-kit.com/) — AI components
@@ -47,16 +41,6 @@ To unlock features like auth, file uploads, and agents, see [INSTALL.md](./INSTA
 - [vercel ai sdk](https://vercel.com/blog/introducing-the-vercel-ai-sdk) — model integration, AI features
 - [supabase](https://supabase.com) — auth and storage
 
-## Sponsors
-
-<a href="https://vercel.com/oss">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
-</a>
-
 ## License
 
 Apache License 2.0
-
-## Notes
-
-This is a beta release. The codebase is evolving and may change.
