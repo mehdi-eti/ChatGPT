@@ -4,7 +4,7 @@
 
 [![Chat with this repo](https://regal-fenglisu-19f212.netlify.app/button/github.svg)](https://regal-fenglisu-19f212.netlify.app/?agent=github/ibelick/ChatGPT)
 
-![ChatGPT screenshot](./public/cover_ChatGPT.webp)
+![ChatGPT screenshot](./public/Screenshot.png)
 
 ## Features
 
