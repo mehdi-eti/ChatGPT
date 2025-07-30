@@ -1,46 +1,38 @@
-# ChatGPT
+# 🤖 ChatGPT – Multi-Model AI Chat UI
 
-[ChatGPT.chat](https://regal-fenglisu-19f212.netlify.app)
+Welcome to **ChatGPT**, a fully open-source, customizable, multi-model AI chat interface built with modern web technologies. Designed and maintained by [@mehdi-eti](https://github.com/mehdi-eti), this project is ideal for developers looking to self-host or build upon a powerful chat UI with support for various LLM providers.
 
-[![Chat with this repo](https://regal-fenglisu-19f212.netlify.app/button/github.svg)](https://regal-fenglisu-19f212.netlify.app/?agent=github/ibelick/ChatGPT)
+🌐 **Live Demo:** [ChatGPT](https://regal-fenglisu-19f212.netlify.app)
 
-![ChatGPT screenshot](./public/Screenshot.png)
+![ChatGPT Screenshot](./public/Screenshot.png)
 
-## Features
+---
 
-- Multi-model support: OpenAI, Mistral, Claude, Gemini
-- File uploads with context-aware answers
-- Clean, responsive UI with light/dark themes
-- Built with Tailwind, shadcn/ui, and prompt-kit
-- Fully open-source and self-hostable
-- Customizable: user system prompt, multiple layout options
+## ✨ Features
 
-## Agent Features (WIP)
+- 🔄 **Multi-model support**: OpenAI, Claude, Gemini, and Mistral
+- 📁 **File upload**: Drop files into the chat and get context-aware responses
+- 🎨 **Modern UI**: Built with Tailwind CSS, shadcn/ui, and prompt-kit
+- 🌓 **Dark/Light themes** with responsive design
+- 🔧 **Fully customizable**: system prompts, layout modes, and user settings
+- 🛠️ **Self-hostable** and production-ready
 
-- `@agent` mentions
-- Early tool and MCP integration for agent workflows
-- Foundation for more powerful, customizable agents (more coming soon)
+## 🧠 Agent Features (WIP)
 
-## Installation
+- `@agent` mentions to invoke agent tools
+- Foundation for tool usage and AI workflows
+- MCP (Multi-Component Prompting) system (in progress)
+- Modular architecture for advanced agent behavior
 
-You can run ChatGPT locally in seconds, all you need is an OpenAI API key.
+---
+
+## 🚀 Getting Started
+
+You can run ChatGPT locally in seconds — just plug in your OpenAI API key:
 
 ```bash
-git clone https://github.com/ibelick/ChatGPT.git
+git clone https://github.com/mehdi-eti/ChatGPT.git
 cd ChatGPT
 npm install
 echo "OPENAI_API_KEY=your-key" > .env.local
 npm run dev
-```
-
-## Built with
-
-- [prompt-kit](https://prompt-kit.com/) — AI components
-- [shadcn/ui](https://ui.shadcn.com) — core components
-- [motion-primitives](https://motion-primitives.com) — animated components
-- [vercel ai sdk](https://vercel.com/blog/introducing-the-vercel-ai-sdk) — model integration, AI features
-- [supabase](https://supabase.com) — auth and storage
-
-## License
-
-Apache License 2.0
